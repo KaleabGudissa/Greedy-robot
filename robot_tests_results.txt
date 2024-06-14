@@ -1,0 +1,48 @@
+Test X: (shortest distance, number of paths)
+TEST 1: (2,2)
+ SE
+ ES
+2
+TEST 2: (Already there)
+ 
+1
+TEST 3: (NP, 0)
+0
+TEST 4: (2,2)
+ NNENE
+ NNEEN
+ NENNE
+ NENEN
+ NEENN
+ ENNEN
+ ENENN
+7
+TEST 5: (Already there)
+ 
+1
+TEST 6: (NP, 0)
+ NNENNE
+ NNENEN
+ NNEENN
+ NENNEN
+ NENENN
+ ENNENN
+6
+TEST 7: (along Diagonal points)
+ NENE
+ ENEN
+2
+TEST 8: (along the x axis)
+0
+TEST 9: (Vertically along y axis)
+0
+TEST 10: (Np , 0)
+ NENENENE
+ ENENENEN
+2
+TEST 11: (Edge case)
+ 
+1
+TEST 12: (move along same point)
+ 
+1
