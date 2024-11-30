@@ -31,7 +31,7 @@ private:
     // Recursive function to find all possible paths from robot to treasure
     void recursiveFindPaths(int xr, int yr, int xt, int yt, string path, int countN, int countS, int countE, int countW);
 
-    
+
     int max_distance;
     int robot_x;
     int robot_y;
